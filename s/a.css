@@ -513,6 +513,7 @@ div.comments {
 	form.commentform textarea {
 		border : 1px solid #A9A796;
 		width : 99%;
+		resize : vertical;
 		}
 	form.commentform input {
 		border : 1px solid #A9A796;
