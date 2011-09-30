@@ -34,9 +34,9 @@
 
 		</article>
 	<!--end primary content-->
-		<aside><?php 
+		<aside><?php
 			Plugins::act( 'theme_sidebar_top' );
-			$theme->area( 'sidebar' );
+			echo $theme->area( 'sidebar' );
 			Plugins::act( 'theme_sidebar_bottom' ); ?>
 		</aside>
 	</div>
