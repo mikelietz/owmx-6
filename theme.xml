@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <pluggable type="theme">
 	<name>OWMX-6</name>
-	<class>Owmx6</class>
 	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
 	<author url="http://www.jabz.info/contact/jonas-jared-jacek/">Jonas Jacek</author>	
-	<author url="http://mikelietz.org/code/">Mike Lietz</author>
+	<author url="http://mikelietz.org/">Mike Lietz</author>
 	
 	<version>1.0</version>
 	<url>http://www.owmx.com/templates/owmx-6.html</url>
@@ -12,6 +11,7 @@
 	
 	<template_engine>rawphpengine</template_engine>
 
+	<guid>DB66EBF7-EBD5-404C-AA1C-811BFC294949</guid>
 	<copyright>2011</copyright>
 	<areas>
 		<area name="sidebar">
