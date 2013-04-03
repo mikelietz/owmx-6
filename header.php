@@ -8,9 +8,9 @@
 
 	<link rel="stylesheet" type="text/css" media="screen" href="<?php Site::out_url( 'theme' ); ?>/s/a.css">
 	<link rel="Shortcut Icon" href="<?php Site::out_url( 'theme' ); ?>/favicon.ico">
-	<?php $theme->header(); ?>
+	<?php echo $theme->header(); ?>
 </head>
-<body class="<?php $theme->body_class(); ?>">
+<body class="<?php echo $theme->body_class(); ?>">
 	<!--begin wrapper-->
 	<div id="a">
 		<!--begin masthead-->
