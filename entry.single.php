@@ -7,7 +7,7 @@ $theme->display ( 'header' ); ?>
 		<article id="post-<?php echo $post->id; ?>" class="<?php echo $post->statusname; ?> post">
 			<h1><a href="<?php echo $post->permalink; ?>" title="<?php echo $post->title; ?>"><?php echo $post->title_out; ?></a></h1>
 			<section class="meta">
-				<p>Author: <?php echo $post->author->displayname; ?> | Date: <time datetime="<?php echo $post->pubdate_out->format(DateTime::ATOM); ?>" pubdate><?php echo $post->pubdate_out->format(); ?></time> | <?php echo $theme->comments_link($post,'%d&nbsp;comments','%d&nbsp;comment','%d&nbsp;comments');
+				<p>Author: <?php echo $post->author->displayname; ?> | Date: <time datetime="<?php echo $post->pubdate_out->format(DateTime::ATOM); ?>"><?php echo $post->pubdate_out->format(); ?></time> | <?php echo $theme->comments_link($post,'%d&nbsp;comments','%d&nbsp;comment','%d&nbsp;comments');
 				if ( $loggedin ) { ?> | <a href="<?php echo $post->editlink; ?>" title="<?php _e('Edit post'); ?>">Edit</a><?php } ?></p>
 				<?php if ( count( $post->tags ) ) : ?>
 				<p>Tags: <?php echo $post->tags_out; ?></p>
