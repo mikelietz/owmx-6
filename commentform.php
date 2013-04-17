@@ -1,4 +1,6 @@
-<?php if ( !defined( 'HABARI_PATH' ) ) { die('No direct access'); } ?>
+<?php
+namespace Habari;
+if ( !defined( 'HABARI_PATH' ) ) { die('No direct access'); } ?>
 	<h3><?php $theme->comments_count($post,'no&nbsp;responses','%d&nbsp;response','%d&nbsp;responses'); ?> <?php _e('to'); ?> <?php echo $post->title; ?></h3>
 <a href="<?php echo $post->comment_feed_link; ?>">Comment Feed</a>
 

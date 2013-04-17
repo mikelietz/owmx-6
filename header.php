@@ -1,4 +1,6 @@
-<?php if ( !defined( 'HABARI_PATH' ) ) { die('No direct access'); } ?>
+<?php
+namespace Habari;
+if ( !defined( 'HABARI_PATH' ) ) { die('No direct access'); } ?>
 <!DOCTYPE html>
 <html lang="<?php echo Options::get( 'locale', 'en' ); ?>">
 <head>

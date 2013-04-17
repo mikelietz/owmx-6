@@ -1,5 +1,7 @@
-<?php if ( !defined( 'HABARI_PATH' ) ) { die('No direct access'); } ?>
-<?php $theme->display ( 'header' ); ?>
+<?php
+namespace Habari;
+if ( !defined( 'HABARI_PATH' ) ) { die('No direct access'); }
+$theme->display ( 'header' ); ?>
 <!--begin content-->
 	<div id="page">
 	<div id="content">
