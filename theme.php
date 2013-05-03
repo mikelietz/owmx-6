@@ -26,7 +26,7 @@ class Owmx6 extends Theme
 		$this->assign( 'asides', Posts::get( array( 'vocabulary' => array( 'tags:term' => 'aside' ), 'limit' => 5 ) ) );
 
 		//for recent comments loop in sidebar.php
-		$this->assign('recent_comments', Comments::get( array('limit'=>5, 'status'=>Comment::STATUS_APPROVED, 'orderby'=>'date DESC' ) ) );
+		$this->assign('recent_comments', Comments::get( array('limit'=>5, 'status'=>Comment::status( 'approved' ), 'orderby'=>'date DESC' ) ) );
 
 		parent::add_template_vars();
 		//visiting page/2, /3 will offset to the next page of posts in the sidebar
