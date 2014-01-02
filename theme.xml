@@ -6,7 +6,7 @@
 	<author url="http://mikelietz.org/">Mike Lietz</author>
 	
 	<version>1.0</version>
-	<url>http://github.com/mikelietz/owmx-6/</url>
+	<url>http://github.com/mikelietz/owmx-6</url>
 	<description><![CDATA[<a href="http://www.owmx.com/templates/owmx-6.html">OWMX-6</a> is a neat two-column website template, ultra-lightweight, made with very few image elements for your creative freedom.]]></description>
 	
 	<template_engine>rawphpengine</template_engine>
